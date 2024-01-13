@@ -83,7 +83,6 @@ Here are two examples for prompts you could give to ChatGPT. Can you guess which
 [[Try the other option.|Good hpv prompt]]
 
 ::Good hpv prompt {"position":"1800,675","size":"100,100"}
-How would an anti-vaxx activist respond to an article about the new HPV vaccine? Can you give me 10 examples in the format of a social media posting with respective matching usernames? 
 <iframe src="https://chat.openai.com/share/939d77cb-d0e4-4f31-ae1e-c18cd426fbc8" width="1000" height="800"/> 
 
 [[We can even go on and generate comments that answer directly to other comments|hpv comment section prompt]]
