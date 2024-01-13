@@ -25,16 +25,29 @@ Then start [[here|The first choice]].
 The best way to convince a lot of people nowadays is obviously on social media!
 The only problem is, that one post won't be enough...
 Maybe we can try to use a small army of bots?
-[[Good idea!|Second choice]] [[I don't know how to do that!|Second choice]]
+[[Good idea!|ChatGPT is great]] [[I don't know how to do that!|ChatGPT is great]]
 
 
-::Second choice {"position":"1100,675","size":"100,100"}
+::ChatGPT is great {"position":"1100,675","size":"100,100"}
 You live in great times! Nowadays you don't really need to know how to code, as you can just let Chat GPT do the work for you!
-[[Go to Chat GPT|Third choice]]
-<!--Some kind of image here of Chat GPT Logo? -->
-::Third choice {"position":"1200,675","size":"100,100"}
+[[Go to Chat GPT|ChatGPT First window]]
 
-::Fourth choice {"position":"1300,675","size":"100,100"}
+::ChatGPT First window {"position":"1200,675","size":"100,100"}
+<iframe src="https://chat.openai.com/share/77c7e456-a0ed-4814-9a85-937d49f3c8a0" width="1000" height="800"/>
+[[I am at people online, help me create an army of bots to convince them.|I am mad-prompt]]
+
+::I am mad-prompt {"position":"1300,675","size":"100,100"}
+<iframe src="https://chat.openai.com/share/9290f549-19b3-4ffe-a974-91d4063e6d7e" width="1000" height="800"/>
+
+As you can see, these systems have some safeguards.
+-> Ethical alignment.
+
+But that's not stopping you, is it?
+
+[[Try again.|Try again]]
+
+::Try again {"position":"1300,675","size":"100,100"}
+<iframe src="https://chat.openai.com/share/be51d6b0-974d-4640-aedd-500fb066ed73" width="1000" height="800"/>
 
 ::Fifth choice {"position":"1400,675","size":"100,100"}
 
