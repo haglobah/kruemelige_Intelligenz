@@ -30,10 +30,10 @@
             # { name = "MY_ENV_VAR"; value = "SOTRUE"; }
           ];
           packages = [
-            pkgs.ruby
+            pkgs.ruby_2_7
           ];
           devshell.startup = {
-            # install-stuff.text = "gem install <this-pkg>";
+            install-stuff.text = "gem install twee2";
           };
           commands = [
             # { name = "devshell-test"; command = "echo 'Is this working?'"; help = "A command to test devshell";}
