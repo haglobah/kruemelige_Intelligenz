@@ -1,0 +1,41 @@
+:: StoryTitle
+AI_and_disinformation
+
+
+:: StoryData
+{
+  "ifid": "E094F25D-EAA9-44CE-9AA1-508279C9AE2E",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Start {"position":"1100,450","size":"100,100"}
+Welcome. This is a game on Disinformation.
+
+Today you will try to convice your fellow citizens that getting a vaccination against HPV is terribly dangerous, are you ready?
+
+Then start [[here|The first choice]].
+
+<!--Comment Text-->
+
+:: The first choice {"position":"1100,575","size":"100,100"}
+The best way to convince a lot of people nowadays is obviously on social media!
+The only problem is, that one post won't be enough...
+Maybe we can try to use a small army of bots?
+[[Good idea!|Second choice]] [[I don't know how to do that!|Second choice]]
+
+
+::Second choice {"position":"1100,675","size":"100,100"}
+You live in great times! Nowadays you don't really need to know how to code, as you can just let Chat GPT do the work for you!
+[[Go to Chat GPT|Third]]
+
+::Third choice {"position":"1200,675","size":"100,100"}
+
+::Fourth choice {"position":"1300,675","size":"100,100"}
+
+::Fifth choice {"position":"1400,675","size":"100,100"}
+
+::Sixth choice {"position":"1500,675","size":"100,100"}
