@@ -27,16 +27,17 @@
         packages.default = pkgs.hello;
         devshells.default = {
           env = [
-            # { name = "MY_ENV_VAR"; value = "SOTRUE"; }
+              # { name = "MY_ENV_VAR"; value = "SOTRUE"; }
           ];
           packages = [
-            pkgs.ruby_2_7
+            pkgs.racket
           ];
           devshell.startup = {
-            install-stuff.text = "gem install twee2";
+            setup-langserver.text = ''raco pkg install --auto --skip-installed racket-langserver'';
+            setup-pollen.text = ''raco pkg install --auto --skip-installed pollen'';
           };
           commands = [
-            # { name = "devshell-test"; command = "echo 'Is this working?'"; help = "A command to test devshell";}
+            { name = "rps"; command = "raco pollen start"; help = "Run the pollen web server"; }
           ];
         };
       };
